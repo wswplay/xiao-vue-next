@@ -10,8 +10,10 @@ importers:
 
   packages/vue:
     specifiers:
+      '@xiao/tools': workspace:^1.0.0
       wswplay-ts-rest-axios: ^0.0.4
     dependencies:
+      '@xiao/tools': link:../tools
       wswplay-ts-rest-axios: registry.npmmirror.com/wswplay-ts-rest-axios/0.0.4
 
 packages:
