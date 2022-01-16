@@ -1,0 +1,32 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers:
+      typescript: ^4.5.4
+    devDependencies:
+      typescript: registry.npmmirror.com/typescript/4.5.4
+
+  packages/vue:
+    specifiers:
+      wswplay-ts-rest-axios: ^0.0.4
+    dependencies:
+      wswplay-ts-rest-axios: registry.npmmirror.com/wswplay-ts-rest-axios/0.0.4
+
+packages:
+
+  registry.npmmirror.com/typescript/4.5.4:
+    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/download/typescript-4.5.4.tgz}
+    name: typescript
+    version: 4.5.4
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  registry.npmmirror.com/wswplay-ts-rest-axios/0.0.4:
+    resolution: {integrity: sha512-MlFnfRk46Di2W65M5jW1M4ZPpfmbltdqLZ0FuBsyDjPUq0eJSmUhh9gSCwYdkvkdkCKA5K1fhNqervODbgUFrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/wswplay-ts-rest-axios/download/wswplay-ts-rest-axios-0.0.4.tgz}
+    name: wswplay-ts-rest-axios
+    version: 0.0.4
+    engines: {node: '>=6.0.0'}
+    dev: false
