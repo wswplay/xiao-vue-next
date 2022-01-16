@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sth",
+    "dev": "sth for github push url",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
